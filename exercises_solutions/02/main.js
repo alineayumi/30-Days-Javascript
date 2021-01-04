@@ -192,7 +192,7 @@ words = cleanSentence.split(' ')
 console.log(cleanSentence)
 
 // 04 Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-console.log("Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'")
+console.log("04 Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'")
 let string04 = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 incomes = (string04.match(/\d+/g))
 console.log(incomes.reduce((a, b) => Number(a) + Number(b), 0))
